@@ -8,7 +8,7 @@ New developers: read this file first. If setup instructions change, update this 
 
 - Git
 - [Bun](https://bun.sh/docs/installation), the JavaScript runtime and package manager used by this project
-- Access to the private GitHub repository
+- A GitHub account; contributors who need to push changes must accept their repository invitation
 
 Check that Git and Bun are installed:
 
