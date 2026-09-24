@@ -1,0 +1,45 @@
+name: Share a problem or idea
+description: Tell us what is difficult or what you would like to be able to do
+title: "[Problem] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        You do not need to know how to code. Tell us about the problem in
+        your own words. The team will ask follow-up questions if needed.
+  - type: textarea
+    id: trying
+    attributes:
+      label: What are you trying to do?
+      description: What were you hoping to accomplish?
+      placeholder: I am trying to...
+    validations:
+      required: true
+  - type: textarea
+    id: today
+    attributes:
+      label: What happens today?
+      description: What is difficult, slow, confusing, or impossible?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: What would a good outcome look like?
+      description: What would help you accomplish what you need?
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Can you give us an example?
+      description: A specific time this happened can help us understand.
+    validations:
+      required: false
+  - type: textarea
+    id: anything-else
+    attributes:
+      label: Is there anything else we should know?
+    validations:
+      required: false
