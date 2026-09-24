@@ -20,7 +20,7 @@ bun --version
 ## Get the code
 
 ```sh
-git clone https://github.com/prumo/cairn-web.git
+git clone https://github.com/prumoh/cairn-web.git
 cd cairn-web
 ```
 
