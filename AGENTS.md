@@ -8,3 +8,4 @@
 - Update README setup instructions in the same change whenever developer setup changes.
 - Review your own diff before considering the task finished.
 - Follow the same branch, Pull Request, and review rules as human contributors. AI-generated code is not automatically merged.
+- For project communication, customer-context capture, or turning conversations into tracked work, read `docs/collaboration.md`.

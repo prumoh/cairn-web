@@ -47,6 +47,10 @@ The application has not been created, so `bun run dev` is not available yet. Whe
 
 There are no test, lint, typecheck, check, or CI commands yet. Do not treat a missing check as a passing check. Add these commands when the corresponding tools and meaningful checks exist.
 
+## Collaboration
+
+Use WhatsApp and Discord for social conversation and quick coordination, Zulip for durable project discussion, and GitHub for actionable engineering work. See [project collaboration](docs/collaboration.md) for the concise tool boundaries and call-summary convention.
+
 ## Work through GitHub
 
 GitHub Issues are the source of truth for project work. The [Cairn Web project board](https://github.com/orgs/prumoh/projects/1) tracks work through Backlog, Ready, In Progress, In Review, and Done. The customer can describe a problem or ask a question in an Issue; they do not need to create branches, use a terminal, or understand implementation details. The senior and mid-level developers follow up and turn the problem into development work.
