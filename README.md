@@ -20,7 +20,7 @@ bun --version
 ## Get the code
 
 ```sh
-git clone https://github.com/prumoh/cairn-web.git
+git clone https://github.com/prumod/cairn-web.git
 cd cairn-web
 ```
 
@@ -49,7 +49,7 @@ There are no test, lint, typecheck, check, or CI commands yet. Do not treat a mi
 
 ## Work through GitHub
 
-GitHub Issues are the source of truth for project work. The [Cairn Web project board](https://github.com/orgs/prumoh/projects/1) tracks work through Backlog, Ready, In Progress, In Review, and Done. The customer can describe a problem or ask a question in an Issue; they do not need to create branches, use a terminal, or understand implementation details. The senior and mid-level developers follow up and turn the problem into development work.
+GitHub Issues are the source of truth for project work. The [Cairn Web project board](https://github.com/orgs/prumod/projects/1) tracks work through Backlog, Ready, In Progress, In Review, and Done. The customer can describe a problem or ask a question in an Issue; they do not need to create branches, use a terminal, or understand implementation details. The senior and mid-level developers follow up and turn the problem into development work.
 
 For a change:
 
@@ -78,7 +78,7 @@ For a change:
    ```
 
 5. Open a Pull Request on GitHub, link the Issue (for example, `Closes #123`), and explain what changed and how you checked it. Keep PRs small.
-6. Request a review. Changes to `main` should go through a PR and receive at least one approval. GitHub is not currently enforcing this rule because the private repository's plan does not include branch protection. Until that is resolved, do not merge your own PR; ask the organization owner if you are unsure.
+6. Request a review. Changes to `main` require a PR with at least one approval. Force pushes and deletion of `main` are blocked. CI checks are not required yet because none exist. Do not merge your own PR.
 7. Address review feedback, then squash-merge after approval. GitHub deletes the merged branch automatically when configured.
 
 ## Before opening a PR
